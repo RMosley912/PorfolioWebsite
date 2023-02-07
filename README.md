@@ -1,4 +1,4 @@
-# Porfolio Website For Reggie Mosley
+# Portfolio Website For Reggie Mosley
 
 ## Description
 
