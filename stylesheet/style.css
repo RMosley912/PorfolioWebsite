@@ -11,6 +11,17 @@
     line-height: 1;
   }
 
+
+.mainheader{ 
+
+
+}
+
+.nav-links{
+
+
+
+}
   .hero {
     margin: 0px 5%;
     display: flex;
@@ -21,7 +32,13 @@
     background-repeat: no-repeat;
     
   }
+.hero img {
+  width: 120px;
+  height: auto;
+ }
 
-  #banner {
+
+
+  .banner {
     width: 160px;
     height: auto;}
