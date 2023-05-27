@@ -32,9 +32,9 @@
     background-repeat: no-repeat;
     
   }
-.hero img {
-  width: 120px;
-  height: auto;
+.profilepicture {
+  border-image-width: 120px;
+  
  }
 
 
@@ -42,3 +42,11 @@
   .banner {
     width: 160px;
     height: auto;}
+
+    .aside {display: flex;
+      float: left;
+      background-color: blue;
+
+
+
+    }
