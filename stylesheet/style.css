@@ -1,52 +1,36 @@
-*{
-    box-sizing: border-box;
-    background-color: lightslategray;
-
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-    line-height: 1;
-  }
-
-
-.mainheader{ 
-
-
+body {
+  font-family: Arial, sans-serif;
+  color: lightblue;
+  background-color: rgb(51, 45, 45);
 }
 
-.nav-links{
-
-
-
+header {
+  text-align: center;
+  padding: 20px;
 }
-  .hero {
-    margin: 0px 5%;
-    display: flex;
-    justify-content: space-between;
-    background-size: cover;
-    align-items: flex-end;
-    background-image: url("assets/GoldenIsles banner.jpg");
-    background-repeat: no-repeat;
-    
-  }
-.profilepicture {
-  border-image-width: 120px;
-  
- }
 
+#hero-pic {
+  width: 100%;
+  height: auto;
+}
 
+#profilepicture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
 
-  .banner {
-    width: 160px;
-    height: auto;}
+.container {
+  display: flex;
+}
 
-    .aside {display: flex;
-      float: left;
-      background-color: blue;
+#top-nav, #sidebar-nav {
+  padding: 20px;
+  background-color: lightblue;
+}
 
-
-
-    }
+#top-nav {
+  position: absolute;
+  top: 0;
+  border-bottom: 1px solid lightblue;
+}
