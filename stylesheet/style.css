@@ -24,18 +24,18 @@ header {
   display: flex;
 }
 
-#top-nav, #sidebar-nav {
+#top-navigation, #sidebar-navigation {
   padding: 20px;
   background-color: lightblue;
 }
 
-#top-nav {
+#top-navigation {
   position: absolute;
   top: 0;
   border-bottom: 1px solid lightblue;
 }
 
-#sidebar-nav {
+#sidebar-navigation {
   position: sticky;
   top: 0;
   border-right: 1px solid lightblue;
