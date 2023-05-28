@@ -34,3 +34,98 @@ header {
   top: 0;
   border-bottom: 1px solid lightblue;
 }
+
+#sidebar-nav {
+  position: sticky;
+  top: 0;
+  border-right: 1px solid lightblue;
+  height: 100vh;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 10px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.project {
+  position: relative;
+  text-align: center;
+  margin: 20px;
+}
+
+.project-img {
+  width: 200px;
+   transition: transform 0.3s ease;
+}
+
+.project-img:hover {
+  transform: scale(1.1);
+}
+
+.main-project .project-img {
+  width: 400px;
+}
+
+.main-project {
+  margin: 20px auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.project:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: lightblue;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  background-color: lightblue;
+}
+
+.footer-item {
+  border-bottom: 1px solid lightblue;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+      flex-direction: column;
+  }
+
+  #top-nav, #sidebar-nav {
+      position: static;
+      height: auto;
+  }
+
+  .project-img, .main-project .project-img {
+      width: 100%;
+  }
+}
