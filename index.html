@@ -1,90 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="yes">
-    <link rel="stylesheet" type="text/css" href="./stylesheet/style.css">
-    <title>Reggie Mosley-Developer Profile</title>
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet/style.css">
 </head>
 <body>
-
-    <header>
-        <img src="assets/GoldenIsles banner.jpg" alt="A picture of the Golden Isles" id="hero-pic">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#aboutme">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <!-- My headshot -->
+                <img src="assets/Rmosleybw2.jpg" alt="Picture of Reggie Mosley">
+                <!-- Navigation to the different sections of the portfolio -->
+                <h3 >About Me</h3>
+                
+                
+                <h3>Work</h3>
             
-            <h1>Reggie Mosley - Full-Stack Developer Portfolio</h1>
-            <img src="assets/Rmosleybw2.jpg" alt="A picture of Reggie Mosley" id="profilepicture">
-
-            <nav id="top-navigation">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#footer">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="container">
-            <nav id="sidebar-navigaton">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#work">Projects</a></li>
-                    <li><a href="#footer">Contact</a></li>
-                </ul>
-            </nav>
-
-            <main>
-                <section id="about">
-                    <h2>About</h2>
-                    <!-- About content -->
-                    <p> My name is Reggie Mosley and I am a full-stack web developer based out of Georgia.</p>
-<p> I am training in HTML,CSS and Javascript, with many more associated frameworks to come</p>
-<p> Feel free to peruse my previous projects to familiarize yourself with my skillset</p>
-<p>Do not hesitate to reach out if you think I am the one you are looking for, and let's build something together!</p>
-
-                 </section>
-
-                <section id="work">
-                    <h2>My Projects</h2>
-                    <div class="project main-project">
-                        <a href="https://protected-mesa-32753.herokuapp.com/">
-                            <img src="./assets/FeastFindr1.png" alt="This is a picture of the Feast finder app" class="project-img">
-                            <div class="overlay">
-                                <div class="text">Project 1</div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- More projects -->
+                
+                <h3 id="contacth3">Contact</h3>
+            </div>
+            <div class="col-md-10">
+                <section id="aboutme">
+                    <h2>About Me</h2>
+                    <p>I am a Web Developer from South Georgia who is currently in the Georgia Tech Full-Stack Web-Development Bootcamp.</p>
+                    <p>I am learning the MERN stack but am open to learning other stacks or frameworks</p>
+                    <p>Please don't hesitate to reach out if you think I can be an asset to your team. </p>
+                    <p>Thanks for your time!</p>
                 </section>
-            </main>
-
-
-
-
-
-
-
-
-
-
-</main>
-
-
-    <footer id="footer">
-
-        <div class="footer-item">
-            <p>Email: rmosley241@gmail.com</p>
+                
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <section id="work">
+                    <h2>Work</h2>
+                    <div class="card main-project">
+                        <img src="assets/FeastFindr1.png" class="card-img-top" alt="Main Project">
+                        <div class="card-body">
+                            <h5 class="card-title">Feast-Findr</h5>
+                            <a href="https://github.com/RMosley912/Feast-Findr" class="btn btn-primary">Visit FeastFindr Repo</a>
+                        </div>
+                    </div>
+                    <!-- my other projects are here -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="assets/WeatherDashboardScreenshot1.png" class="card-img-top" alt="Weather Dashboard App">
+                                <div class="card-body">
+                                    <h5 class="card-title">Weather Dashboard App</h5>
+                                    <a href="https://rmosley912.github.io/WeatherDashboard/" class="btn btn-primary">Go to live app</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="assets/emergencyironpicture3.png" class="card-img-top" alt="Emergency Iron">
+                                <div class="card-body">
+                                    <h5 class="card-title">Emergency Iron App</h5>
+                                    <a href="https://github.com/RMosley912/emergency-iron-project" class="btn btn-primary">Go to Emergency Iron Repo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="assets/workdayscheduler.png" class="card-img-top" alt="Project 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">WorkDayScheduler</h5>
+                                    <a href="https://rmosley912.github.io/WorkDayScheduler/" class="btn btn-primary">Go to live app</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="assets/server farm2.jpg" class="card-img-top" alt="TBA">
+                                <div class="card-body">
+                                    <h5 class="card-title">TBA</h5>
+                                    <a href="https://github.com/project4" class="btn btn-primary">Go to project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact">
+                    <!-- My contact info -->
+                    <h2>Contact</h2>
+                    <p>Email: [rmosley241@gmail.com]</p>
+                    <p>LinkedIn: [https://www.linkedin.com/in/rmosley770/]</p>
+                    <p>Github: [https://github.com/RMosley912]</p>
+                </section>
+            </div>
         </div>
-        <div class="footer-item">
-            <p>LinkedIn: <a href="www.linkedin.com/in/rmosley770 " >Linkedin Page</a></p>
-        </div>
-        <div class="footer-item">
-            <p>Github: <a href="https://github.com/RMosley912">Github Page</a></p>
-        </div>
-    </footer>
-    
-
-
+    </div>
 </body>
-
 </html>
-
