@@ -16,10 +16,12 @@ No installation necessary
 
 ## Usage
 
-Site is live @ https://rmosley912.github.io/PorfolioWebsite/
+Site is live @ [https://rmosley912.github.io/PorfolioWebsite/
+](https://rmosley912.github.io/PortfolioWebsite/)
 
-Provide instructions and examples for use. Include screenshots as needed.
+## Screenshot
 
+![screencapture-file-C-Users-rmosl-PortfolioWebsite-index-html-2023-07-16-16_48_29](https://github.com/RMosley912/PortfolioWebsite/assets/122495055/12fdf7a2-0edb-403d-a6e5-e7c56db74b64)
 
 
 ## Credits
